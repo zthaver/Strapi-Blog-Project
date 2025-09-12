@@ -423,6 +423,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
   attributes: {
     articleId: Schema.Attribute.UID;
     articleText: Schema.Attribute.Text;
+    articleTitle: Schema.Attribute.String;
     authorName: Schema.Attribute.String;
     blogImage: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     createdAt: Schema.Attribute.DateTime;

@@ -11,11 +11,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "authorName": {
+    "articleTitle": {
       "type": "string"
     },
     "articleText": {
       "type": "text"
+    },
+    "authorName": {
+      "type": "string"
     },
     "articleId": {
       "type": "uid"
